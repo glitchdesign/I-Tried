@@ -1,0 +1,11 @@
+<script>
+var dice1 = Math.floor((Math.random() * 6) + 1);
+var dice2 = Math.floor((Math.random() * 6) + 1);
+document.write("You rolled a " + dice1 + " and " + dice2 + ".");
+if (dice1 == dice2) {
+   alert("You rolled DOUBLE!");
+}
+if (dice1 == 1 && dice2 == 1) {
+   alert("SNAKE EYES!");
+}
+  </script>
